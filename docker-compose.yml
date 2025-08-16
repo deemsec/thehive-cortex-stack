@@ -86,7 +86,7 @@ services:
 
   cortex:
     image: thehiveproject/cortex:3.2
-    user: "1000:999"
+    user: "1000:987"
     restart: unless-stopped
     depends_on:
       - elasticsearch
