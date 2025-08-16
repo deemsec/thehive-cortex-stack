@@ -85,7 +85,7 @@ services:
       - SOC_NET
 
   cortex:
-    image: thehiveproject/cortex:3.5.2-1
+    image: thehiveproject/cortex:3.2
     restart: unless-stopped
     depends_on:
       - elasticsearch
