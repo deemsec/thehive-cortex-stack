@@ -93,7 +93,7 @@ services:
       - docker_job_directory=/tmp/cortex-jobs
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-      - /home/siem-admin/thehive_cortex_graylog/cortex/cortex-jobs:/tmp/cortex-jobs
+      - /home/siem-admin/thehive_cortex/cortex/cortex-jobs:/tmp/cortex-jobs
       - ./cortex/logs:/var/log/cortex
       - ./cortex/application.conf:/cortex/application.conf
     depends_on:
