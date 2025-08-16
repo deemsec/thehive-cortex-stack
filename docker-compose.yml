@@ -85,7 +85,7 @@ services:
       - SOC_NET
 
   cortex:
-    image: thehiveproject/cortex:3.2
+    image: thehiveproject/cortex:latest
     user: "1000:987"
     restart: unless-stopped
     depends_on:
